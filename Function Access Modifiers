@@ -1,0 +1,21 @@
+@private
+def int hi()
+{
+  return 0;
+}
+Votes: 1
+private def int hi()
+{
+  return 9;
+}
+Votes: 0
+def int hi() : private
+{
+  return 0;
+}
+Votes: 0
+def private int hi()
+{
+  return 1;
+}
+Votes : 2
