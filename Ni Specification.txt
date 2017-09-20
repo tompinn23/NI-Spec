@@ -1,2 +1,33 @@
-Specifictation For Ni Lang.
-#See associated .ni files.Misc:	All expressions / declarations lines end with ;Variables:	Variables are defined using a simple <type> <name>	with optional value assigned.	Dynamic variables can be assigned using var.Operators:	All the "normal" operators are included	Arithmetic: +, -, /, *, +=, -=, /=, *=	Comparison: ==, >, <, !=, <=, >=, or, and	Assignment: =	Unary Operators: &		The & operator is used for stating that a variable should be passed in by reference instead of by value.	This is default for classes and user defined types.	Functions:	Function are defined using the def keyword similar to python.	You then have to state the return type if dynamic you use var.	- See associated functions.ni file for a few examples.	Classes:	Classes are defined using the class keyword	They can use superclasses using the extends keyword	and use interfaces using the implements keyword
+Specifictation For Ni Lang.
+
+#See associated .ni files.
+
+Misc:
+	All expressions / declarations lines end with ;
+
+
+Variables:
+	Variables are defined using a simple <type> <name>
+	with optional value assigned.
+	Dynamic variables can be assigned using var.
+
+Operators:
+	All the "normal" operators are included
+	Arithmetic: +, -, /, *, +=, -=, /=, *=
+	Comparison: ==, >, <, !=, <=, >=, ||, and
+	Assignment: =
+	Unary Operators: &
+	
+	The & operator is used for stating that a variable should be passed in by reference instead of by value.
+	This is default for classes and user defined types.
+	
+Functions:
+	Function are defined using the def keyword similar to python.
+	You then have to state the return type if dynamic you use var.
+	- See associated functions.ni file for a few examples.
+	
+Classes:
+	Classes are defined using the class keyword
+	They can use superclasses using the extends keyword
+	and use interfaces using the implements keyword
+  All methods defined a class are public unless using private specifically
