@@ -8,14 +8,14 @@ private def int hi()
 {
   return 9;
 }
-Votes: 0
+Votes: 1
 def int hi() : private
 {
   return 0;
 }
-Votes: 0
+Votes: 1
 def private int hi()
 {
   return 1;
 }
-Votes : 2
+Votes : 3
